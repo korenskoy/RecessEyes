@@ -5,6 +5,7 @@
 
 import AppKit
 import SwiftUI
+import os.log
 
 /// NSPanel без рамки, который всегда может стать key-окном
 private final class KeyablePanel: NSPanel {
@@ -14,6 +15,8 @@ private final class KeyablePanel: NSPanel {
 
 /// Менеджер окон оверлея для блокировки экрана
 class OverlayWindowManager: NSObject {
+    private static let log = Logger(subsystem: "ru.korenskoy.RecessEyes", category: "Overlay")
+
     // MARK: - Properties
     private var overlayWindows: [NSPanel] = []
 
@@ -31,19 +34,23 @@ class OverlayWindowManager: NSObject {
     /// Показать оверлей перерыва на всех экранах
     func showBreakOverlay(getTimeRemaining: @escaping () -> Int,
                           getTotalDuration: @escaping () -> Int) {
+        Self.log.notice("showBreakOverlay called; activation policy=\(NSApp.activationPolicy().rawValue)")
         hideAllOverlays()
 
         DispatchQueue.main.async { [weak self] in
             guard let self else { return }
             self.startEscapeMonitor()
             NSApp.activate(ignoringOtherApps: true)
-            for screen in NSScreen.screens {
+            let screens = NSScreen.screens
+            Self.log.notice("creating panels for \(screens.count, privacy: .public) screen(s); isActive=\(NSApp.isActive)")
+            for (index, screen) in screens.enumerated() {
                 let panel = self.createOverlayPanel(
                     for: screen,
                     getTimeRemaining: getTimeRemaining,
                     getTotalDuration: getTotalDuration
                 )
                 panel.makeKeyAndOrderFront(nil)
+                Self.log.notice("panel[\(index, privacy: .public)] frame=\(NSStringFromRect(panel.frame), privacy: .public) visible=\(panel.isVisible) level=\(panel.level.rawValue)")
                 self.overlayWindows.append(panel)
             }
         }
@@ -56,6 +63,9 @@ class OverlayWindowManager: NSObject {
 
     /// Скрыть все оверлеи
     func hideAllOverlays() {
+        if !overlayWindows.isEmpty {
+            Self.log.notice("hideAllOverlays: closing \(self.overlayWindows.count, privacy: .public) panel(s)")
+        }
         overlayWindows.forEach { $0.close() }
         overlayWindows.removeAll()
         isBreakExpired = false

@@ -9,10 +9,13 @@ import AppKit
 import Foundation
 import Combine
 import UserNotifications
+import os.log
 
 /// ViewModel для управления таймером
 @Observable
 class TimerViewModel {
+    private static let log = Logger(subsystem: "ru.korenskoy.RecessEyes", category: "ViewModel")
+
     // MARK: - Observable Properties
     var timeRemaining: Int = 0
     var state: TimerState = .idle
@@ -191,6 +194,7 @@ class TimerViewModel {
         // TimerManager callbacks
         timerManager.onBreakStarted = { [weak self] in
             guard let self else { return }
+            Self.log.notice("onBreakStarted callback; requesting overlay")
             self.cancelBreakWarningNotification()
             self.overlayWindowManager.showBreakOverlay(
                 getTimeRemaining: { self.timerManager.timeRemaining },
@@ -260,7 +264,9 @@ class TimerViewModel {
         ) { _ in
             Task { @MainActor [weak self] in
                 guard let self else { return }
+                Self.log.notice("screenIsLocked fired; current state=\(String(describing: self.state), privacy: .public)")
                 if self.state == .onBreak || self.state == .breakExpired {
+                    Self.log.notice("→ skipping break due to screen lock")
                     self.skipBreak()
                 }
             }

@@ -7,9 +7,12 @@
 
 import Foundation
 import Combine
+import os.log
 
 /// Менеджер таймера, управляющий отсчётом и состояниями
 class TimerManager: NSObject, ObservableObject {
+    private static let log = Logger(subsystem: "ru.korenskoy.RecessEyes", category: "Timer")
+
     // MARK: - Published Properties
     @Published var timeRemaining: Int = 0
     @Published var state: TimerState = .idle
@@ -63,11 +66,15 @@ class TimerManager: NSObject, ObservableObject {
     // MARK: - Public: app pause (от ApplicationMonitor / InactivityMonitor)
 
     func pauseByApp() {
+        guard !isPausedByApp else { return }
         isPausedByApp = true
+        Self.log.notice("pauseByApp: paused (state=\(String(describing: self.state), privacy: .public), timeRemaining=\(self.timeRemaining, privacy: .public))")
     }
 
     func resumeByApp() {
+        guard isPausedByApp else { return }
         isPausedByApp = false
+        Self.log.notice("resumeByApp: resumed (state=\(String(describing: self.state), privacy: .public), timeRemaining=\(self.timeRemaining, privacy: .public))")
     }
 
     // MARK: - Public: actions
@@ -106,8 +113,10 @@ class TimerManager: NSObject, ObservableObject {
     /// Спек: если сон >= длительности перерыва → новый цикл, иначе вычесть время
     func handleSleepWake(sleepDuration: TimeInterval) {
         let sleepSeconds = Int(sleepDuration)
+        Self.log.notice("handleSleepWake: slept=\(sleepSeconds, privacy: .public)s, state=\(String(describing: self.state), privacy: .public), timeRemaining=\(self.timeRemaining, privacy: .public)")
 
         if sleepSeconds >= breakIntervalSeconds {
+            Self.log.notice("sleep ≥ breakInterval → resetToWork (break skipped)")
             resetToWork()
         } else {
             timeRemaining = max(0, timeRemaining - sleepSeconds)
@@ -159,6 +168,7 @@ class TimerManager: NSObject, ObservableObject {
             state = .onBreak
             isWorkInterval = false
             timeRemaining = breakIntervalSeconds
+            Self.log.notice("→ onBreak (duration=\(self.breakIntervalSeconds, privacy: .public)s); firing onBreakStarted")
             onBreakStarted?()
             resumeTimer()
         } else {
@@ -166,6 +176,7 @@ class TimerManager: NSObject, ObservableObject {
             stopTimer()
             state = .breakExpired
             timeRemaining = 0
+            Self.log.notice("→ breakExpired; firing onBreakExpired")
             onBreakExpired?()
         }
     }
