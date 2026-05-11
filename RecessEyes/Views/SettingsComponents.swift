@@ -9,16 +9,84 @@ import AppKit
 // MARK: - Design tokens (mockup palette)
 
 enum DS {
+    private static func dynamic(light: NSColor, dark: NSColor) -> Color {
+        Color(nsColor: NSColor(name: nil) { appearance in
+            let isDark = appearance.bestMatch(from: [.darkAqua, .vibrantDark, .accessibilityHighContrastDarkAqua, .accessibilityHighContrastVibrantDark]) != nil
+            return isDark ? dark : light
+        })
+    }
+
     // Colors
-    static let surface       = Color(nsColor: NSColor.white)
-    static let surfaceInset  = Color(nsColor: NSColor(calibratedRed: 0.965, green: 0.965, blue: 0.97, alpha: 1))
-    static let line          = Color(nsColor: NSColor(calibratedWhite: 0.86, alpha: 0.9))
-    static let ink           = Color(nsColor: NSColor(calibratedRed: 0.16, green: 0.16, blue: 0.18, alpha: 1))
-    static let ink2          = Color(nsColor: NSColor(calibratedRed: 0.36, green: 0.36, blue: 0.38, alpha: 1))
-    static let muted         = Color(nsColor: NSColor(calibratedRed: 0.55, green: 0.55, blue: 0.58, alpha: 1))
-    static let muted2        = Color(nsColor: NSColor(calibratedRed: 0.66, green: 0.66, blue: 0.70, alpha: 1))
+    static let surface       = dynamic(
+        light: NSColor.white,
+        dark:  NSColor(calibratedRed: 0.13, green: 0.13, blue: 0.14, alpha: 1)
+    )
+    static let surfaceInset  = dynamic(
+        light: NSColor(calibratedRed: 0.965, green: 0.965, blue: 0.97, alpha: 1),
+        dark:  NSColor(calibratedRed: 0.18,  green: 0.18,  blue: 0.19, alpha: 1)
+    )
+    static let line          = dynamic(
+        light: NSColor(calibratedWhite: 0.86, alpha: 0.9),
+        dark:  NSColor(calibratedWhite: 1.0,  alpha: 0.12)
+    )
+    static let ink           = dynamic(
+        light: NSColor(calibratedRed: 0.16, green: 0.16, blue: 0.18, alpha: 1),
+        dark:  NSColor(calibratedRed: 0.96, green: 0.96, blue: 0.97, alpha: 1)
+    )
+    static let ink2          = dynamic(
+        light: NSColor(calibratedRed: 0.36, green: 0.36, blue: 0.38, alpha: 1),
+        dark:  NSColor(calibratedRed: 0.78, green: 0.78, blue: 0.80, alpha: 1)
+    )
+    static let muted         = dynamic(
+        light: NSColor(calibratedRed: 0.55, green: 0.55, blue: 0.58, alpha: 1),
+        dark:  NSColor(calibratedRed: 0.62, green: 0.62, blue: 0.66, alpha: 1)
+    )
+    static let muted2        = dynamic(
+        light: NSColor(calibratedRed: 0.66, green: 0.66, blue: 0.70, alpha: 1),
+        dark:  NSColor(calibratedRed: 0.50, green: 0.50, blue: 0.54, alpha: 1)
+    )
     static let accent        = Color(nsColor: NSColor(calibratedRed: 0.18, green: 0.47, blue: 0.97, alpha: 1))
-    static let accentSoft    = Color(nsColor: NSColor(calibratedRed: 0.18, green: 0.47, blue: 0.97, alpha: 0.12))
+    static let accentSoft    = dynamic(
+        light: NSColor(calibratedRed: 0.18, green: 0.47, blue: 0.97, alpha: 0.12),
+        dark:  NSColor(calibratedRed: 0.40, green: 0.62, blue: 1.00, alpha: 0.22)
+    )
+
+    static let hairline      = dynamic(
+        light: NSColor(calibratedWhite: 0.0, alpha: 0.08),
+        dark:  NSColor(calibratedWhite: 1.0, alpha: 0.12)
+    )
+    static let strokeStrong  = dynamic(
+        light: NSColor(calibratedWhite: 0.0, alpha: 0.14),
+        dark:  NSColor(calibratedWhite: 1.0, alpha: 0.18)
+    )
+    static let segmentedTrack = dynamic(
+        light: NSColor(calibratedWhite: 0.91, alpha: 1),
+        dark:  NSColor(calibratedWhite: 0.22, alpha: 1)
+    )
+    static let ringTrack     = dynamic(
+        light: NSColor(calibratedWhite: 0.90, alpha: 1),
+        dark:  NSColor(calibratedWhite: 0.28, alpha: 1)
+    )
+    static let hoverWash     = dynamic(
+        light: NSColor(calibratedWhite: 0.0, alpha: 0.04),
+        dark:  NSColor(calibratedWhite: 1.0, alpha: 0.08)
+    )
+    static let windowTop     = dynamic(
+        light: NSColor(calibratedWhite: 0.985, alpha: 1),
+        dark:  NSColor(calibratedWhite: 0.14,  alpha: 1)
+    )
+    static let windowBottom  = dynamic(
+        light: NSColor(calibratedWhite: 0.97, alpha: 1),
+        dark:  NSColor(calibratedWhite: 0.11, alpha: 1)
+    )
+    static let tabbarTop     = dynamic(
+        light: NSColor(calibratedWhite: 0.945, alpha: 1),
+        dark:  NSColor(calibratedWhite: 0.16,  alpha: 1)
+    )
+    static let tabbarBottom  = dynamic(
+        light: NSColor(calibratedWhite: 0.965, alpha: 1),
+        dark:  NSColor(calibratedWhite: 0.13,  alpha: 1)
+    )
 
     // Icon tones
     static let iconBlue     = Color(nsColor: NSColor(calibratedRed: 0.18, green: 0.47, blue: 0.97, alpha: 1))
@@ -47,7 +115,7 @@ struct IconTile: View {
         .frame(width: size, height: size)
         .overlay(
             RoundedRectangle(cornerRadius: 6)
-                .strokeBorder(Color.black.opacity(0.08), lineWidth: 0.5)
+                .strokeBorder(DS.hairline, lineWidth: 0.5)
         )
     }
 }
@@ -65,7 +133,7 @@ struct GroupCard<Content: View>: View {
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .overlay(
             RoundedRectangle(cornerRadius: 10)
-                .strokeBorder(Color.black.opacity(0.06), lineWidth: 0.5)
+                .strokeBorder(DS.hairline, lineWidth: 0.5)
         )
     }
 }
@@ -191,7 +259,7 @@ struct ChevronStepper: View {
             .frame(minWidth: 64, alignment: .trailing)
 
             Rectangle()
-                .fill(Color.black.opacity(0.10))
+                .fill(DS.hairline)
                 .frame(width: 0.5)
 
             VStack(spacing: 0) {
@@ -200,7 +268,7 @@ struct ChevronStepper: View {
                     if newVal <= range.upperBound { value = newVal }
                 }
                 Rectangle()
-                    .fill(Color.black.opacity(0.10))
+                    .fill(DS.hairline)
                     .frame(height: 0.5)
                 StepperButton(symbol: "chevron.down") {
                     let newVal = value - step
@@ -213,7 +281,7 @@ struct ChevronStepper: View {
         .clipShape(RoundedRectangle(cornerRadius: 5))
         .overlay(
             RoundedRectangle(cornerRadius: 5)
-                .strokeBorder(Color.black.opacity(0.12), lineWidth: 0.5)
+                .strokeBorder(DS.strokeStrong, lineWidth: 0.5)
         )
     }
 }
@@ -229,7 +297,7 @@ private struct StepperButton: View {
                 .font(.system(size: 7, weight: .bold))
                 .foregroundColor(DS.ink2)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(hovered ? Color.black.opacity(0.04) : Color.white)
+                .background(hovered ? DS.hoverWash : DS.surface)
                 .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
@@ -267,14 +335,14 @@ struct PopupButton<Item: Hashable, ItemLabel: View>: View {
             .padding(.vertical, 4)
             .background(
                 LinearGradient(
-                    colors: [Color.white, Color(nsColor: NSColor(calibratedWhite: 0.97, alpha: 1))],
+                    colors: [DS.surface, DS.windowBottom],
                     startPoint: .top, endPoint: .bottom
                 )
             )
             .clipShape(RoundedRectangle(cornerRadius: 5))
             .overlay(
                 RoundedRectangle(cornerRadius: 5)
-                    .strokeBorder(Color.black.opacity(0.14), lineWidth: 0.5)
+                    .strokeBorder(DS.strokeStrong, lineWidth: 0.5)
             )
         }
         .menuStyle(.borderlessButton)
@@ -305,11 +373,11 @@ struct SegmentedTab<T: Hashable>: View {
                             Group {
                                 if selected {
                                     RoundedRectangle(cornerRadius: 6)
-                                        .fill(Color.white)
+                                        .fill(DS.surface)
                                         .shadow(color: .black.opacity(0.10), radius: 1, x: 0, y: 1)
                                         .overlay(
                                             RoundedRectangle(cornerRadius: 6)
-                                                .strokeBorder(Color.black.opacity(0.10), lineWidth: 0.5)
+                                                .strokeBorder(DS.hairline, lineWidth: 0.5)
                                         )
                                 }
                             }
@@ -321,7 +389,7 @@ struct SegmentedTab<T: Hashable>: View {
         .padding(2)
         .background(
             RoundedRectangle(cornerRadius: 8)
-                .fill(Color(nsColor: NSColor(calibratedWhite: 0.91, alpha: 1)))
+                .fill(DS.segmentedTrack)
         )
     }
 }
@@ -379,7 +447,7 @@ struct StatusHero: View {
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .overlay(
             RoundedRectangle(cornerRadius: 10)
-                .strokeBorder(Color.black.opacity(0.06), lineWidth: 0.5)
+                .strokeBorder(DS.hairline, lineWidth: 0.5)
         )
     }
 
@@ -446,8 +514,8 @@ struct ProgressRing: View {
                         gradient: Gradient(stops: [
                             .init(color: DS.accent, location: 0),
                             .init(color: DS.accent, location: progress),
-                            .init(color: Color(nsColor: NSColor(calibratedWhite: 0.90, alpha: 1)), location: progress),
-                            .init(color: Color(nsColor: NSColor(calibratedWhite: 0.90, alpha: 1)), location: 1)
+                            .init(color: DS.ringTrack, location: progress),
+                            .init(color: DS.ringTrack, location: 1)
                         ]),
                         center: .center
                     )

@@ -22,10 +22,7 @@ struct SettingsWindow: View {
             tabbar
                 .background(
                     LinearGradient(
-                        colors: [
-                            Color(nsColor: NSColor(calibratedWhite: 0.945, alpha: 1)),
-                            Color(nsColor: NSColor(calibratedWhite: 0.965, alpha: 1))
-                        ],
+                        colors: [DS.tabbarTop, DS.tabbarBottom],
                         startPoint: .top, endPoint: .bottom
                     )
                 )
@@ -48,10 +45,7 @@ struct SettingsWindow: View {
             }
             .background(
                 LinearGradient(
-                    colors: [
-                        Color(nsColor: NSColor(calibratedWhite: 0.985, alpha: 1)),
-                        Color(nsColor: NSColor(calibratedWhite: 0.97, alpha: 1))
-                    ],
+                    colors: [DS.windowTop, DS.windowBottom],
                     startPoint: .top, endPoint: .bottom
                 )
             )

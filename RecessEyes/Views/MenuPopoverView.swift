@@ -70,7 +70,7 @@ struct MenuPopoverView: View {
 
     private var menuDivider: some View {
         Rectangle()
-            .fill(Color.black.opacity(0.08))
+            .fill(DS.hairline)
             .frame(height: 1)
             .padding(.horizontal, 6)
             .padding(.vertical, 4)

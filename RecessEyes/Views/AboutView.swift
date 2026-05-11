@@ -40,10 +40,7 @@ struct AboutView: View {
         .frame(width: 320, height: 340)
         .background(
             LinearGradient(
-                colors: [
-                    Color(nsColor: NSColor(calibratedWhite: 0.985, alpha: 1)),
-                    Color(nsColor: NSColor(calibratedWhite: 0.96, alpha: 1))
-                ],
+                colors: [DS.windowTop, DS.windowBottom],
                 startPoint: .top, endPoint: .bottom
             )
         )
