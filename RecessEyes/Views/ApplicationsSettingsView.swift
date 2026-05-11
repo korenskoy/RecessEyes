@@ -81,7 +81,7 @@ struct ApplicationsSettingsView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
-                        .strokeBorder(Color.black.opacity(0.06), lineWidth: 0.5)
+                        .strokeBorder(DS.hairline, lineWidth: 0.5)
                 )
             }
             .padding(.horizontal, 22)
@@ -119,7 +119,7 @@ struct ApplicationsSettingsView: View {
             .clipShape(RoundedRectangle(cornerRadius: 6))
             .overlay(
                 RoundedRectangle(cornerRadius: 6)
-                    .strokeBorder(Color.black.opacity(0.12), lineWidth: 0.5)
+                    .strokeBorder(DS.strokeStrong, lineWidth: 0.5)
             )
             .frame(maxWidth: 220)
         }
@@ -127,10 +127,7 @@ struct ApplicationsSettingsView: View {
         .padding(.vertical, 8)
         .background(
             LinearGradient(
-                colors: [
-                    Color(nsColor: NSColor(calibratedWhite: 0.985, alpha: 1)),
-                    Color(nsColor: NSColor(calibratedWhite: 0.97, alpha: 1))
-                ],
+                colors: [DS.windowTop, DS.windowBottom],
                 startPoint: .top, endPoint: .bottom
             )
         )
@@ -158,10 +155,7 @@ struct ApplicationsSettingsView: View {
         .padding(.vertical, 8)
         .background(
             LinearGradient(
-                colors: [
-                    Color(nsColor: NSColor(calibratedWhite: 0.97, alpha: 1)),
-                    Color(nsColor: NSColor(calibratedWhite: 0.955, alpha: 1))
-                ],
+                colors: [DS.windowBottom, DS.tabbarBottom],
                 startPoint: .top, endPoint: .bottom
             )
         )
@@ -250,11 +244,11 @@ struct AppRow: View {
                 .foregroundColor(app.isEnabled ? DS.accent : DS.ink2)
                 .padding(.horizontal, 8)
                 .padding(.vertical, 2)
-                .background(app.isEnabled ? DS.accentSoft : Color(nsColor: NSColor(calibratedWhite: 0.94, alpha: 1)))
+                .background(app.isEnabled ? DS.accentSoft : DS.segmentedTrack)
                 .clipShape(Capsule())
                 .overlay(
                     Capsule()
-                        .strokeBorder(Color.black.opacity(0.06), lineWidth: 0.5)
+                        .strokeBorder(DS.hairline, lineWidth: 0.5)
                 )
 
             // Toggle
@@ -289,7 +283,7 @@ private struct IconActionButton: View {
                 .frame(width: 26, height: 22)
                 .background(
                     LinearGradient(
-                        colors: [Color.white, Color(nsColor: NSColor(calibratedWhite: 0.97, alpha: 1))],
+                        colors: [DS.surface, DS.windowBottom],
                         startPoint: .top, endPoint: .bottom
                     )
                 )
@@ -301,7 +295,7 @@ private struct IconActionButton: View {
                         bottomTrailing: isLeft ? 0 : 5,
                         topTrailing: isLeft ? 0 : 5
                     ))
-                    .strokeBorder(Color.black.opacity(0.14), lineWidth: 0.5)
+                    .strokeBorder(DS.strokeStrong, lineWidth: 0.5)
                 )
         }
         .buttonStyle(.plain)
