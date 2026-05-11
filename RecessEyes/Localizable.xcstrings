@@ -25,7 +25,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "تایمر استراحت آگاهانه برای macOS"
+            "value": "یادآور استراحت آگاهانه برای مک"
           }
         },
         "ru": {
@@ -70,7 +70,16 @@
         }
       }
     },
-    "Add": {},
+    "Add": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "افزودن"
+          }
+        }
+      }
+    },
     "apps.badge.ignored": {
       "localizations": {
         "az": {
@@ -162,7 +171,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$@ برنامه · %2$@ متوقف"
+            "value": "%1$@ برنامه · %2$@ متوقف شده"
           }
         },
         "ru": {
@@ -434,7 +443,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "برای ادامه کار این پنجره را ببند"
+            "value": "برای ادامه‌ی کار این پنجره را ببند"
           }
         },
         "ru": {
@@ -638,7 +647,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "به ۶ متری نگاه کن (۲۰ فوت)"
+            "value": "به ۶ متری نگاه کن"
           }
         },
         "ru": {
@@ -649,8 +658,26 @@
         }
       }
     },
-    "Cancel": {},
-    "Choose App...": {},
+    "Cancel": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لغو"
+          }
+        }
+      }
+    },
+    "Choose App...": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتخاب نرم‌افزار…"
+          }
+        }
+      }
+    },
     "hero.sub": {
       "localizations": {
         "az": {
@@ -708,7 +735,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "استراحت در حال انجام"
+            "value": "در حال استراحت"
           }
         },
         "ru": {
@@ -878,7 +905,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "اکنون راه‌اندازی مجدد"
+            "value": "راه‌اندازی مجدد"
           }
         },
         "ru": {
@@ -1048,7 +1075,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "همین حالا استراحت کن"
+            "value": "کمی استراحت کن"
           }
         },
         "ru": {
@@ -1502,7 +1529,16 @@
       }
     },
     "RecessEyes работает в меню-баре": {},
-    "Select Application": {},
+    "Select Application": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتخاب نرم افزار"
+          }
+        }
+      }
+    },
     "settings.break_length": {
       "localizations": {
         "az": {
@@ -1560,7 +1596,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "به اندازه کافی برای نگاه کردن به چیزی در فاصله ۶ متری (۲۰ فوت)."
+            "value": "به اندازه کافی به جسمی در فاصله ۶ متری نگاه کنید."
           }
         },
         "ru": {
@@ -1628,7 +1664,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "هنگام پایان استراحت یک صدای ملایم پخش کن."
+            "value": "زمان پایان استراحت یک صدای ملایم پخش کن."
           }
         },
         "ru": {
@@ -1662,7 +1698,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "قانون ۲۰-۲۰-۲۰، توصیه شده توسط آکادمی چشم‌پزشکی آمریکا: هر **۲۰ دقیقه**، به چیزی در فاصله **۶ متری (۲۰ فوت)** به مدت **۲۰ ثانیه** نگاه کنید. این کار ماهیچه‌های تمرکز را آرام می‌کند و خستگی چشم را کاهش می‌دهد."
+            "value": "قانون ۲۰-۲۰-۲۰، توصیه شده توسط آکادمی چشم‌پزشکی آمریکا: هر **۲۰ دقیقه**، به جسمی در فاصله **۶ متری (۲۰ فوت)** به مدت **۲۰ ثانیه** نگاه کنید. این کار عضلات تمرکز را آرام می‌کند و خستگی چشم را کاهش می‌دهد."
           }
         },
         "ru": {
@@ -1696,7 +1732,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "چرا این مقادیر پیش‌فرض؟"
+            "value": "زمان های پیشفرض"
           }
         },
         "ru": {
@@ -1798,7 +1834,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "تناوب تلنگر خشکی چشم."
+            "value": "دوره های یادآوری خشکی چشم."
           }
         },
         "ru": {
@@ -1934,7 +1970,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "اجرا در ورود به سیستم"
+            "value": "اجرا در هنگام ورود به سیستم"
           }
         },
         "ru": {
@@ -1968,7 +2004,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "هنگام ورود، RecessEyes را بی‌سر و صدا اجرا کن."
+            "value": "هنگام ورود، RecessEyes را در پس زمینه اجرا کن."
           }
         },
         "ru": {
@@ -2342,7 +2378,7 @@
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "فاصله کاری"
+            "value": "بازه‌های کاری"
           }
         },
         "ru": {
