@@ -27,8 +27,14 @@ relax focusing muscles and reduce digital eye strain.
 
 ## Install
 
-Download the latest `RecessEyes-X.Y.dmg` from `dist/`, mount it, and drag
+Download the latest `RecessEyes-X.Y.dmg` from [Releases](https://github.com/korenskoy/RecessEyes/releases), mount it, and drag
 **RecessEyes.app** to **Applications**.
+
+Disable **GateKeeper** by entering the following command in the Terminal:
+
+```bash
+sudo xattr -r -c /Applications/RecessEyes.app
+```
 
 ## Build from source
 
