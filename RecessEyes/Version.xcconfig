@@ -4,4 +4,4 @@
 // Both Debug and Release configurations inherit them via baseConfigurationReference.
 
 MARKETING_VERSION = 1.1.1
-CURRENT_PROJECT_VERSION = 40
+CURRENT_PROJECT_VERSION = 41

@@ -23,6 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
     private var appSettings: AppSettings!
     private var pausedAppsManager: PausedAppsManager!
     private var timerViewModel: TimerViewModel!
+    private var updateChecker: UpdateChecker!
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -58,7 +59,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
 
         sleepWakeMonitor.onSleepWake = { [weak self] duration in
             self?.timerManager.handleSleepWake(sleepDuration: duration)
+            Task { @MainActor [weak self] in await self?.updateChecker.checkNow() }
         }
+
+        updateChecker = UpdateChecker()
 
         setupStatusBar()
 
@@ -66,6 +70,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
         sleepWakeMonitor.startMonitoring()
 
         timerManager.start()
+        updateChecker.start()
 
         NSApp.setActivationPolicy(.accessory)
     }
@@ -73,6 +78,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
     func applicationWillTerminate(_ notification: Notification) {
         applicationMonitor.stopMonitoring()
         sleepWakeMonitor.stopMonitoring()
+        updateChecker.stop()
     }
 
     // MARK: - Setup
@@ -189,6 +195,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
             let content = MenuPopoverView(
                 timerManager: timerManager,
                 timerViewModel: timerViewModel,
+                updateChecker: updateChecker,
                 onDoBreakNow: { [weak self] in
                     self?.menuPopover?.performClose(nil)
                     self?.timerViewModel.doBreakNow()
@@ -212,6 +219,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
                 onAbout: { [weak self] in
                     self?.menuPopover?.performClose(nil)
                     self?.openAbout()
+                },
+                onOpenUpdate: { [weak self] url in
+                    self?.menuPopover?.performClose(nil)
+                    NSWorkspace.shared.open(url)
                 },
                 onQuit: {
                     NSApplication.shared.terminate(nil)

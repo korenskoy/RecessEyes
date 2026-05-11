@@ -9,6 +9,7 @@ import AppKit
 struct MenuPopoverView: View {
     @ObservedObject var timerManager: TimerManager
     var timerViewModel: TimerViewModel  // @Observable
+    @ObservedObject var updateChecker: UpdateChecker
 
     var onDoBreakNow: () -> Void
     var onTogglePause: () -> Void
@@ -16,6 +17,7 @@ struct MenuPopoverView: View {
     var onSkipBreak: () -> Void
     var onSettings: () -> Void
     var onAbout: () -> Void
+    var onOpenUpdate: (URL) -> Void
     var onQuit: () -> Void
 
     var body: some View {
@@ -57,6 +59,14 @@ struct MenuPopoverView: View {
 
             menuDivider
 
+            if let update = updateChecker.availableUpdate {
+                PopMenuItem(
+                    label: "menu.update_available",
+                    icon: "arrow.down.circle.fill",
+                    kbd: update.version,
+                    action: { onOpenUpdate(update.url) }
+                )
+            }
             PopMenuItem(label: "menu.settings", icon: "gearshape.fill", kbd: "⌘,", action: onSettings)
             PopMenuItem(label: "menu.about", icon: "info.circle.fill", kbd: nil, action: onAbout)
 

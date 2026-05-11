@@ -9,8 +9,16 @@ import XCTest
 
 final class RecessEyesUITestsLaunchTests: XCTestCase {
 
+    // Disabled: when true, Xcode's multi-config runner toggles the OS-wide
+    // AppleInterfaceStyle (Light/Dark) between configurations and does not
+    // restore it on completion. Restoring from within the test runner is
+    // unreliable — the runner's spawned `defaults` and CFPreferences writes
+    // fail to propagate (the toggle is performed through a private mechanism
+    // that bypasses cfprefsd), so the system theme remains stuck on whichever
+    // config ran last. With this flag off, the test launches once and the
+    // user's appearance is untouched.
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
+        false
     }
 
     override func setUpWithError() throws {
