@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93A89E3E2F45571A005F47AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A89E262F455719005F47AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A89E2D2F455719005F47AC;
+			remoteInfo = RecessEyes;
+		};
+		93A89E482F45571A005F47AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A89E262F455719005F47AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A89E2D2F455719005F47AC;
+			remoteInfo = RecessEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93A89E2E2F455719005F47AC /* RecessEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecessEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A89E3D2F45571A005F47AC /* RecessEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecessEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A89E472F45571A005F47AC /* RecessEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecessEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A89E602F45571A005F47AC /* RecessEyes/Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RecessEyes/Version.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93A89E302F455719005F47AC /* RecessEyes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecessEyes;
+			sourceTree = "<group>";
+		};
+		93A89E402F45571A005F47AC /* RecessEyesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecessEyesTests;
+			sourceTree = "<group>";
+		};
+		93A89E4A2F45571A005F47AC /* RecessEyesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecessEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A89E2B2F455719005F47AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A89E3A2F45571A005F47AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A89E442F45571A005F47AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931A44CB2FB1AF32002C42A3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				93A89E602F45571A005F47AC /* RecessEyes/Version.xcconfig */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		93A89E252F455719005F47AC = {
+			isa = PBXGroup;
+			children = (
+				93A89E302F455719005F47AC /* RecessEyes */,
+				93A89E402F45571A005F47AC /* RecessEyesTests */,
+				93A89E4A2F45571A005F47AC /* RecessEyesUITests */,
+				93A89E2F2F455719005F47AC /* Products */,
+				931A44CB2FB1AF32002C42A3 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		93A89E2F2F455719005F47AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A89E2E2F455719005F47AC /* RecessEyes.app */,
+				93A89E3D2F45571A005F47AC /* RecessEyesTests.xctest */,
+				93A89E472F45571A005F47AC /* RecessEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A89E2D2F455719005F47AC /* RecessEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A89E512F45571A005F47AC /* Build configuration list for PBXNativeTarget "RecessEyes" */;
+			buildPhases = (
+				93A89E2A2F455719005F47AC /* Sources */,
+				93A89E2B2F455719005F47AC /* Frameworks */,
+				93A89E2C2F455719005F47AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93A89E302F455719005F47AC /* RecessEyes */,
+			);
+			name = RecessEyes;
+			packageProductDependencies = (
+			);
+			productName = RecessEyes;
+			productReference = 93A89E2E2F455719005F47AC /* RecessEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93A89E3C2F45571A005F47AC /* RecessEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A89E542F45571A005F47AC /* Build configuration list for PBXNativeTarget "RecessEyesTests" */;
+			buildPhases = (
+				93A89E392F45571A005F47AC /* Sources */,
+				93A89E3A2F45571A005F47AC /* Frameworks */,
+				93A89E3B2F45571A005F47AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A89E3F2F45571A005F47AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93A89E402F45571A005F47AC /* RecessEyesTests */,
+			);
+			name = RecessEyesTests;
+			packageProductDependencies = (
+			);
+			productName = RecessEyesTests;
+			productReference = 93A89E3D2F45571A005F47AC /* RecessEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93A89E462F45571A005F47AC /* RecessEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A89E572F45571A005F47AC /* Build configuration list for PBXNativeTarget "RecessEyesUITests" */;
+			buildPhases = (
+				93A89E432F45571A005F47AC /* Sources */,
+				93A89E442F45571A005F47AC /* Frameworks */,
+				93A89E452F45571A005F47AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A89E492F45571A005F47AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93A89E4A2F45571A005F47AC /* RecessEyesUITests */,
+			);
+			name = RecessEyesUITests;
+			packageProductDependencies = (
+			);
+			productName = RecessEyesUITests;
+			productReference = 93A89E472F45571A005F47AC /* RecessEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A89E262F455719005F47AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					93A89E2D2F455719005F47AC = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					93A89E3C2F45571A005F47AC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 93A89E2D2F455719005F47AC;
+					};
+					93A89E462F45571A005F47AC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 93A89E2D2F455719005F47AC;
+					};
+				};
+			};
+			buildConfigurationList = 93A89E292F455719005F47AC /* Build configuration list for PBXProject "RecessEyes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				es,
+				az,
+				fa,
+			);
+			mainGroup = 93A89E252F455719005F47AC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93A89E2F2F455719005F47AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A89E2D2F455719005F47AC /* RecessEyes */,
+				93A89E3C2F45571A005F47AC /* RecessEyesTests */,
+				93A89E462F45571A005F47AC /* RecessEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A89E2C2F455719005F47AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A89E3B2F45571A005F47AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A89E452F45571A005F47AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A89E2A2F455719005F47AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A89E392F45571A005F47AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A89E432F45571A005F47AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93A89E3F2F45571A005F47AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A89E2D2F455719005F47AC /* RecessEyes */;
+			targetProxy = 93A89E3E2F45571A005F47AC /* PBXContainerItemProxy */;
+		};
+		93A89E492F45571A005F47AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A89E2D2F455719005F47AC /* RecessEyes */;
+			targetProxy = 93A89E482F45571A005F47AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93A89E4F2F45571A005F47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93A89E502F45571A005F47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93A89E522F45571A005F47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A89E602F45571A005F47AC /* RecessEyes/Version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.korenskoy.RecessEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93A89E532F45571A005F47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A89E602F45571A005F47AC /* RecessEyes/Version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.korenskoy.RecessEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		93A89E552F45571A005F47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.korenskoy.RecessEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecessEyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecessEyes";
+			};
+			name = Debug;
+		};
+		93A89E562F45571A005F47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.korenskoy.RecessEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecessEyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecessEyes";
+			};
+			name = Release;
+		};
+		93A89E582F45571A005F47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.korenskoy.RecessEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RecessEyes;
+			};
+			name = Debug;
+		};
+		93A89E592F45571A005F47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZEE5BVAH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.korenskoy.RecessEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RecessEyes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A89E292F455719005F47AC /* Build configuration list for PBXProject "RecessEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A89E4F2F45571A005F47AC /* Debug */,
+				93A89E502F45571A005F47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A89E512F45571A005F47AC /* Build configuration list for PBXNativeTarget "RecessEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A89E522F45571A005F47AC /* Debug */,
+				93A89E532F45571A005F47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A89E542F45571A005F47AC /* Build configuration list for PBXNativeTarget "RecessEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A89E552F45571A005F47AC /* Debug */,
+				93A89E562F45571A005F47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A89E572F45571A005F47AC /* Build configuration list for PBXNativeTarget "RecessEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A89E582F45571A005F47AC /* Debug */,
+				93A89E592F45571A005F47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A89E262F455719005F47AC /* Project object */;
+}

@@ -1,0 +1,15 @@
+# Build artifacts
+.build_release/
+dist/
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# Tooling / private
+.claude/
+private_docs/
