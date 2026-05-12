@@ -3,5 +3,5 @@
 // Bump these values when releasing a new version.
 // Both Debug and Release configurations inherit them via baseConfigurationReference.
 
-MARKETING_VERSION = 1.2.1
-CURRENT_PROJECT_VERSION = 44
+MARKETING_VERSION = 1.2.2
+CURRENT_PROJECT_VERSION = 47
