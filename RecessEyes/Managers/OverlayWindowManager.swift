@@ -92,14 +92,10 @@ class OverlayWindowManager: NSObject {
             defer: false
         )
 
-        panel.level = .screenSaver
         panel.isOpaque = false
         panel.backgroundColor = .clear
         panel.hasShadow = false
         panel.ignoresMouseEvents = false
-        // Keep on top across spaces, over fullscreen apps, and even when the
-        // accessory-policy app isn't the active app.
-        panel.isFloatingPanel = true
         panel.hidesOnDeactivate = false
         panel.collectionBehavior = [
             .canJoinAllSpaces,
@@ -107,6 +103,10 @@ class OverlayWindowManager: NSObject {
             .stationary,
             .ignoresCycle,
         ]
+        // Must come AFTER any property that mutates window level (notably
+        // isFloatingPanel, which resets level to .floating = 3). .screenSaver
+        // (1000) is what makes the panel cover the system menu bar (.statusBar = 25).
+        panel.level = .screenSaver
 
         let overlayView = BreakOverlayView(
             getTimeRemaining: getTimeRemaining,
