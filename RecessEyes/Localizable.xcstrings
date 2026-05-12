@@ -1,2530 +1,2816 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "": {},
-    "about.tagline": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOS üçün ehtiyatlı fasilə taymeri"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "about.tagline" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS üçün ehtiyatlı fasilə taymeri"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mindful break timer for macOS"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador atento de descansos para macOS"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "یادآور استراحت آگاهانه برای مک"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Внимательный таймер перерывов для macOS"
+          }
+        }
+      }
+    },
+    "about.version" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versiya %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %@"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسخه %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия %@"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افزودن"
+          }
+        }
+      }
+    },
+    "apps.badge.ignored" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nəzərə alınmır"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignored"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignorado"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نادیده گرفته می‌شود"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Игнорируется"
+          }
+        }
+      }
+    },
+    "apps.badge.pauses" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taymeri dayandırır"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pauses timer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausa el temporizador"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تایمر را متوقف می‌کند"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Останавливает таймер"
           }
+        }
+      }
+    },
+    "apps.count" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ proqram · %2$@ dayandırılıb"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ apps · %2$@ paused"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ apps · %2$@ pausadas"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ برنامه · %2$@ متوقف شده"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ прил. · %2$@ на паузе"
+          }
+        }
+      }
+    },
+    "apps.empty" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hələ proqram əlavə edilməyib"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No applications added yet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin aplicaciones añadidas"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هنوز برنامه‌ای اضافه نشده"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложения не добавлены"
+          }
+        }
+      }
+    },
+    "apps.footer" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürətlə əlavə etmək üçün proqramları Finder-dən sürüşdürün."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drag apps from Finder to add them quickly."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrastra apps desde Finder para añadirlas rápido."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "برای افزودن سریع، برنامه‌ها را از Finder بکشید."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перетащите приложения из Finder, чтобы быстро добавить."
+          }
+        }
+      }
+    },
+    "apps.heading" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu proqramlar aktiv olduqda taymeri dayandır"
+          }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mindful break timer for macOS"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause timer when these apps are active"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Temporizador atento de descansos para macOS"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar temporizador cuando estas apps estén activas"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "یادآور استراحت آگاهانه برای مک"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقتی این برنامه‌ها فعال‌اند تایمر را متوقف کن"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Внимательный таймер перерывов для macOS"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ставить таймер на паузу, когда эти приложения активны"
           }
         }
       }
     },
-    "about.version": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versiya %@"
+    "apps.search.placeholder" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proqramları süzgəcdən keçir"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version %@"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter applications"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versión %@"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrar aplicaciones"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "نسخه %@"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فیلتر برنامه‌ها"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Версия %@"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фильтр приложений"
           }
         }
       }
     },
-    "Add": {
-      "localizations": {
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "افزودن"
+    "apps.subheading" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diqqət tələb edən, ekranı az işıqlandıran proqram önə çıxdıqda RecessEyes iş taymerini dayandırır. Taymerin gözləməsini istədiyiniz proqramları seçin."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes keeps the work timer paused while a focused, screen-light app is in front. Toggle the apps that should keep your timer waiting."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes mantiene el temporizador en pausa cuando una app de poca pantalla está en primer plano. Activa las apps que deben pausar el temporizador."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقتی یک برنامه متمرکز با مصرف نور کم در پیش‌زمینه است، RecessEyes تایمر کار را متوقف نگه می‌دارد. برنامه‌هایی را که باید تایمر را در انتظار نگه دارند فعال کنید."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes держит рабочий таймер на паузе, пока на экране сфокусированное «лёгкое» приложение. Включите приложения, которые должны останавливать таймер."
+          }
         }
       }
     },
-    "apps.badge.ignored": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nəzərə alınmır"
+    "break.overlay.done" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hazırdır"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ignored"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ignorado"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "نادیده گرفته می‌شود"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تمام"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Игнорируется"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         }
       }
     },
-    "apps.badge.pauses": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Taymeri dayandırır"
+    "break.overlay.expired" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşə davam etmək üçün bu pəncərəni bağlayın"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pauses timer"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close this overlay to resume work"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pausa el temporizador"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cierra esta pantalla para reanudar el trabajo"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تایمر را متوقف می‌کند"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "برای ادامه‌ی کار این پنجره را ببند"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Останавливает таймер"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закройте окно, чтобы продолжить работу"
           }
         }
       }
     },
-    "apps.count": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ proqram · %2$@ dayandırılıb"
+    "break.overlay.lede" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pəncərə yanında və ya otağın o tərəfində bir nöqtə seç və taymer bitənə qədər gözlərini istirahət etdir."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ apps · %2$@ paused"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a point near a window or across the room and let your eyes relax until the timer ends."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ apps · %2$@ pausadas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un punto cerca de una ventana o al otro lado del cuarto y deja que tus ojos descansen hasta que termine el temporizador."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ برنامه · %2$@ متوقف شده"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نقطه‌ای نزدیک یک پنجره یا آن‌سوی اتاق انتخاب کن و بگذار چشمانت تا پایان تایمر استراحت کنند."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ прил. · %2$@ на паузе"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите точку у окна или в дальнем углу комнаты и дайте глазам отдохнуть, пока идёт таймер."
           }
         }
       }
     },
-    "apps.empty": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hələ proqram əlavə edilməyib"
+    "break.overlay.lock" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekranı kilidlə"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No applications added yet"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock screen"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin aplicaciones añadidas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloquear pantalla"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "هنوز برنامه‌ای اضافه نشده"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قفل صفحه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Приложения не добавлены"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заблокировать экран"
           }
         }
       }
     },
-    "apps.footer": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sürətlə əlavə etmək üçün proqramları Finder-dən sürüşdürün."
+    "break.overlay.skip" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasiləni keç"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag apps from Finder to add them quickly."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip break"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Arrastra apps desde Finder para añadirlas rápido."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omitir descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "برای افزودن سریع، برنامه‌ها را از Finder بکشید."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رد کردن استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перетащите приложения из Finder, чтобы быстро добавить."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить перерыв"
           }
         }
       }
     },
-    "apps.heading": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bu proqramlar aktiv olduqda taymeri dayandır"
+    "break.overlay.tip.1.body" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pəncərədən uzaq bir əşyaya bax — ağac, bina, üfüq. Baxışını 20–30 saniyə saxla."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pause timer when these apps are active"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find a distant object through a window — a tree, a building, the horizon. Hold your gaze for 20–30 seconds."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pausar temporizador cuando estas apps estén activas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encuentra un objeto distante por la ventana — un árbol, un edificio, el horizonte. Mantén la mirada 20–30 segundos."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "وقتی این برنامه‌ها فعال‌اند تایمر را متوقف کن"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "از پنجره به یک شیء دور نگاه کن — درخت، ساختمان، افق. نگاهت را ۲۰ تا ۳۰ ثانیه نگه دار."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ставить таймер на паузу, когда эти приложения активны"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посмотри в окно на дальний объект — дерево, здание, горизонт. Держи взгляд 20–30 секунд."
           }
         }
       }
     },
-    "apps.search.placeholder": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Proqramları süzgəcdən keçir"
+    "break.overlay.tip.1.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzağa bax"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Filter applications"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Look far away"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Filtrar aplicaciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mira a lo lejos"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "فیلتر برنامه‌ها"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نگاه به دوردست"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фильтр приложений"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Взгляд вдаль"
           }
         }
       }
     },
-    "apps.subheading": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diqqət tələb edən, ekranı az işıqlandıran proqram önə çıxdıqda RecessEyes iş taymerini dayandırır. Taymerin gözləməsini istədiyiniz proqramları seçin."
+    "break.overlay.tip.2.body" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10 dəfə yavaş və tam göz qırp. Gözlərini qıyma — hər dəfə göz qapaqlarını tamamilə qapa."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes keeps the work timer paused while a focused, screen-light app is in front. Toggle the apps that should keep your timer waiting."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slowly and fully blink 10 times. Don't squint — fully close your eyelids each time."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes mantiene el temporizador en pausa cuando una app de poca pantalla está en primer plano. Activa las apps que deben pausar el temporizador."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parpadea lento y completo 10 veces. No entrecierres los ojos — cierra los párpados por completo."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "وقتی یک برنامه متمرکز با مصرف نور کم در پیش‌زمینه است، RecessEyes تایمر کار را متوقف نگه می‌دارد. برنامه‌هایی را که باید تایمر را در انتظار نگه دارند فعال کنید."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "۱۰ بار آرام و کامل پلک بزن. چشم‌هایت را تنگ نکن — هر بار پلک‌ها را کامل ببند."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes держит рабочий таймер на паузе, пока на экране сфокусированное «лёгкое» приложение. Включите приложения, которые должны останавливать таймер."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Медленно и полностью моргни 10 раз. Не прищуривайся — именно полное смыкание век."
           }
         }
       }
     },
-    "break.overlay.done": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hazırdır"
+    "break.overlay.tip.2.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göz qırpma"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blinking"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Listo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parpadeo"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تمام"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پلک زدن"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Готово"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моргание"
           }
         }
       }
     },
-    "break.overlay.title.expired": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə bitdi"
+    "break.overlay.tip.3.body" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovuclarını isidənə qədər bir-birinə sürt və qapalı gözlərinin üstünə qoy. 20–30 saniyə qaranlıqda və istidə qal."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Break complete"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rub your palms warm and cup them over closed eyes. Stay in the dark warmth for 20–30 seconds."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descanso completado"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frota tus palmas hasta calentarlas y cúbrete los ojos cerrados. Quédate en la oscuridad cálida 20–30 segundos."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "استراحت تمام شد"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کف دست‌هایت را گرم بمال و روی چشم‌های بسته بگذار. ۲۰ تا ۳۰ ثانیه در تاریکی و گرما بمان."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перерыв закончен"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Потри ладони, приложи к закрытым глазам. Побудь в темноте и тепле 20–30 секунд."
           }
         }
       }
     },
-    "break.overlay.expired": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "İşə davam etmək üçün bu pəncərəni bağlayın"
+    "break.overlay.tip.3.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palminq"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Close this overlay to resume work"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palming"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cierra esta pantalla para reanudar el trabajo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palmeo"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "برای ادامه‌ی کار این پنجره را ببند"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پالمینگ"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Закройте окно, чтобы продолжить работу"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пальминг"
           }
         }
       }
     },
-    "break.overlay.lede": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pəncərə yanında və ya otağın o tərəfində bir nöqtə seç və taymer bitənə qədər gözlərini istirahət etdir."
+    "break.overlay.tip.4.body" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dərhal ekrana qayıtma — bir dəqiqə gəz və bir az su iç."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pick a point near a window or across the room and let your eyes relax until the timer ends."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't rush back to the screen — take a minute to walk and drink some water."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige un punto cerca de una ventana o al otro lado del cuarto y deja que tus ojos descansen hasta que termine el temporizador."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No vuelvas enseguida a la pantalla — camina un minuto y bebe agua."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "نقطه‌ای نزدیک یک پنجره یا آن‌سوی اتاق انتخاب کن و بگذار چشمانت تا پایان تایمر استراحت کنند."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بلافاصله به صفحه برنگرد — یک دقیقه قدم بزن و کمی آب بنوش."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выберите точку у окна или в дальнем углу комнаты и дайте глазам отдохнуть, пока идёт таймер."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не возвращайся к экрану сразу — пройдись минуту, выпей воды."
           }
         }
       }
     },
-    "break.overlay.lock": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ekranı kilidlə"
+    "break.overlay.tip.4.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilədən sonra"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lock screen"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After the break"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bloquear pantalla"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Después del descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قفل صفحه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بعد از استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Заблокировать экран"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "После перерыва"
           }
         }
       }
     },
-    "break.overlay.skip": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasiləni keç"
+    "break.overlay.tip.5.body" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başını yavaşca bir çiyninə əy, 5 saniyə saxla. Digər tərəfə təkrar et. Çiyinlərini geriyə fırlat."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skip break"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slowly tilt your head to one shoulder, hold for 5 seconds. Repeat the other way. Roll your shoulders backward."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Omitir descanso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inclina lento la cabeza hacia un hombro, mantén 5 segundos. Repite al otro lado. Rota los hombros hacia atrás."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "رد کردن استراحت"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "آرام سرت را به سمت یک شانه خم کن، ۵ ثانیه نگه دار. به سمت دیگر تکرار کن. شانه‌هایت را به عقب بچرخان."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пропустить перерыв"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Медленно наклони голову к плечу, задержи 5 секунд. Повтори в другую сторону. Покрути плечами назад."
           }
         }
       }
     },
-    "break.overlay.tip.body": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "yavaş-yavaş beş dəfə göz qırp — bu, gözyaşı qatını buynuz qişa boyunca yayır."
+    "break.overlay.tip.5.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boyun və çiyinlər"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "blink slowly five times — it spreads the tear film across your cornea."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neck and shoulders"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "parpadea lento cinco veces — extiende la película lagrimal sobre tu córnea."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuello y hombros"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "پنج بار آرام پلک بزن — این لایه اشکی را روی قرنیه پخش می‌کند."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "گردن و شانه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "медленно моргните пять раз — это распределит слёзную плёнку по роговице."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шея и плечи"
           }
         }
       }
     },
-    "break.overlay.tip.label": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Məsləhət"
+    "break.overlay.title" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20 fut uzağa bax"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tip"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Look 20 feet away"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Consejo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mira a 6 metros (20 ft)"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "نکته"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "به ۶ متری نگاه کن"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Совет"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посмотрите на 6 метров (20 фт)"
           }
         }
       }
     },
-    "break.overlay.title": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20 fut uzağa bax"
+    "break.overlay.title.expired" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə bitdi"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Look 20 feet away"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break complete"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mira a 6 metros (20 ft)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descanso completado"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "به ۶ متری نگاه کن"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استراحت تمام شد"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Посмотрите на 6 метров (20 фт)"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перерыв закончен"
           }
         }
       }
     },
-    "Cancel": {
-      "localizations": {
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "لغو"
+    "Cancel" : {
+      "localizations" : {
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغو"
           }
         }
       }
     },
-    "Choose App...": {
-      "localizations": {
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "انتخاب نرم‌افزار…"
+    "Choose App..." : {
+      "localizations" : {
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتخاب نرم‌افزار…"
           }
         }
       }
     },
-    "hero.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20-20-20 ritmi · yumşaq xatırlatma və 20 saniyəlik baxış"
+    "hero.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20-20-20 ritmi · yumşaq xatırlatma və 20 saniyəlik baxış"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20-20-20 rhythm · gentle reminder, then a 20-second look-away."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20-20-20 rhythm · gentle reminder, then a 20-second look-away."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ritmo 20-20-20 · aviso suave y mirada de 20 segundos."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ritmo 20-20-20 · aviso suave y mirada de 20 segundos."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ریتم ۲۰-۲۰-۲۰ · یادآوری ملایم و نگاه ۲۰ ثانیه‌ای."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ریتم ۲۰-۲۰-۲۰ · یادآوری ملایم و نگاه ۲۰ ثانیه‌ای."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ритм 20-20-20 · мягкое напоминание и 20-секундный взгляд вдаль."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ритм 20-20-20 · мягкое напоминание и 20-секундный взгляд вдаль."
           }
         }
       }
     },
-    "hero.title.break": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə davam edir"
+    "hero.title.break" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə davam edir"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Break in progress"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break in progress"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descanso en curso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descanso en curso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "در حال استراحت"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "در حال استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Идёт перерыв"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идёт перерыв"
           }
         }
       }
     },
-    "hero.title.disabled": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sabaha qədər söndürülüb"
+    "hero.title.disabled" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sabaha qədər söndürülüb"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Disabled until tomorrow"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabled until tomorrow"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desactivado hasta mañana"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desactivado hasta mañana"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تا فردا غیرفعال"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تا فردا غیرفعال"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отключено до завтра"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключено до завтра"
           }
         }
       }
     },
-    "hero.title.paused": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessiya dayandırılıb"
+    "hero.title.paused" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessiya dayandırılıb"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Session paused"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session paused"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sesión pausada"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesión pausada"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "جلسه متوقف"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جلسه متوقف"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Сессия на паузе"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сессия на паузе"
           }
         }
       }
     },
-    "hero.title.working": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diqqətli iş — fasilə %1$@ d %2$@ s sonra"
+    "hero.title.working" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diqqətli iş — fasilə %1$@ d %2$@ s sonra"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Focused work — break in %1$@ m %2$@ s"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Focused work — break in %1$@ m %2$@ s"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trabajo concentrado — descanso en %1$@ m %2$@ s"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trabajo concentrado — descanso en %1$@ m %2$@ s"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "کار متمرکز — استراحت در %1$@ دقیقه %2$@ ثانیه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کار متمرکز — استراحت در %1$@ دقیقه %2$@ ثانیه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фокус — перерыв через %1$@ м %2$@ с"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фокус — перерыв через %1$@ м %2$@ с"
           }
         }
       }
     },
-    "language.restart_alert.button.later": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sonra"
+    "language.restart_alert.button.later" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Later"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Later"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Más tarde"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más tarde"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "بعداً"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بعداً"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Позже"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позже"
           }
         }
       }
     },
-    "language.restart_alert.button.restart": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "İndi yenidən başlat"
+    "language.restart_alert.button.restart" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İndi yenidən başlat"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restart Now"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart Now"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reiniciar ahora"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar ahora"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "راه‌اندازی مجدد"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راه‌اندازی مجدد"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перезапустить сейчас"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезапустить сейчас"
           }
         }
       }
     },
-    "language.restart_alert.message": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dil dəyişikliyini tətbiq etmək üçün RecessEyes yenidən başlamalıdır."
+    "language.restart_alert.message" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dil dəyişikliyini tətbiq etmək üçün RecessEyes yenidən başlamalıdır."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes needs to restart to apply the language change."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes needs to restart to apply the language change."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes necesita reiniciarse para aplicar el cambio de idioma."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes necesita reiniciarse para aplicar el cambio de idioma."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "برای اعمال تغییر زبان، RecessEyes باید دوباره راه‌اندازی شود."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "برای اعمال تغییر زبان، RecessEyes باید دوباره راه‌اندازی شود."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Чтобы применить смену языка, RecessEyes нужно перезапустить."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы применить смену языка, RecessEyes нужно перезапустить."
           }
         }
       }
     },
-    "language.system": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sistem"
+    "language.system" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistem"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "System"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sistema"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistema"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "سیستم"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سیستم"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Системный"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Системный"
           }
         }
       }
     },
-    "menu.about": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes haqqında"
+    "menu.about" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes haqqında"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "About RecessEyes"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About RecessEyes"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Acerca de RecessEyes"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de RecessEyes"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "درباره RecessEyes"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "درباره RecessEyes"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "О RecessEyes"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О RecessEyes"
           }
         }
       }
     },
-    "menu.disable_tomorrow": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sabaha qədər söndür"
+    "menu.disable_tomorrow" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sabaha qədər söndür"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Disable until tomorrow"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disable until tomorrow"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desactivar hasta mañana"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desactivar hasta mañana"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تا فردا غیرفعال کن"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تا فردا غیرفعال کن"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отключить до завтра"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключить до завтра"
           }
         }
       }
     },
-    "menu.do_break_now": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "İndi fasilə et"
+    "menu.do_break_now" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İndi fasilə et"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take a break now"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a break now"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tomar un descanso ahora"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomar un descanso ahora"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "کمی استراحت کن"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کمی استراحت کن"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Сделать перерыв"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сделать перерыв"
           }
         }
       }
     },
-    "menu.pause": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessiyanı dayandır"
+    "menu.pause" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessiyanı dayandır"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pause session"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause session"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pausar sesión"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar sesión"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "توقف جلسه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توقف جلسه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пауза"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пауза"
           }
         }
       }
     },
-    "menu.quit": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes-dən çıx"
+    "menu.quit" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes-dən çıx"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quit RecessEyes"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit RecessEyes"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salir de RecessEyes"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir de RecessEyes"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "خروج از RecessEyes"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خروج از RecessEyes"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выйти из RecessEyes"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выйти из RecessEyes"
           }
         }
       }
     },
-    "menu.resume": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessiyanı davam et"
+    "menu.resume" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessiyanı davam et"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Resume session"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume session"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reanudar sesión"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reanudar sesión"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ادامه جلسه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادامه جلسه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продолжить"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
           }
         }
       }
     },
-    "menu.settings": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parametrlər…"
+    "menu.settings" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parametrlər…"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Settings…"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings…"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ajustes…"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes…"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تنظیمات…"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنظیمات…"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Настройки…"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки…"
           }
         }
       }
     },
-    "menu.skip_upcoming_break": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Növbəti fasiləni keç"
+    "menu.skip_upcoming_break" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Növbəti fasiləni keç"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skip upcoming break"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip upcoming break"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Omitir próximo descanso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omitir próximo descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "رد کردن استراحت بعدی"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رد کردن استراحت بعدی"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пропустить следующий перерыв"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить следующий перерыв"
           }
         }
       }
     },
-    "menu.update_available": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yeniləmə mövcuddur"
+    "menu.update_available" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeniləmə mövcuddur"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Update available"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update available"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Actualización disponible"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización disponible"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "بروزرسانی موجود است"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بروزرسانی موجود است"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Доступно обновление"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно обновление"
           }
         }
       }
     },
-    "popover.card.next_break": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Növbəti fasilə %1$@ d %2$@ s sonra"
+    "popover.card.next_break" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Növbəti fasilə %1$@ d %2$@ s sonra"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Next break in %1$@ m %2$@ s"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next break in %1$@ m %2$@ s"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Próximo descanso en %1$@ m %2$@ s"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próximo descanso en %1$@ m %2$@ s"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "استراحت بعدی در %1$@ دقیقه %2$@ ثانیه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استراحت بعدی در %1$@ دقیقه %2$@ ثانیه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перерыв через %1$@ м %2$@ с"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перерыв через %1$@ м %2$@ с"
           }
         }
       }
     },
-    "popover.card.on_break": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə · %1$@ s qalıb"
+    "popover.card.on_break" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə · %1$@ s qalıb"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "On break · %1$@ s left"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On break · %1$@ s left"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En descanso · %1$@ s restantes"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En descanso · %1$@ s restantes"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "در استراحت · %1$@ ثانیه باقی"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "در استراحت · %1$@ ثانیه باقی"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перерыв · осталось %1$@ с"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перерыв · осталось %1$@ с"
           }
         }
       }
     },
-    "popover.card.paused": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessiya dayandırılıb"
+    "popover.card.paused" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessiya dayandırılıb"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Session paused"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session paused"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sesión pausada"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesión pausada"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "جلسه متوقف"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جلسه متوقف"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Сессия на паузе"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сессия на паузе"
           }
         }
       }
     },
-    "popover.card.subtext": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20-20-20 ritmini izləyir"
+    "popover.card.subtext" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20-20-20 ritmini izləyir"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Following the 20-20-20 rhythm"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Following the 20-20-20 rhythm"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Siguiendo el ritmo 20-20-20"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiendo el ritmo 20-20-20"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "در حال پیروی از ریتم ۲۰-۲۰-۲۰"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "در حال پیروی از ریتم ۲۰-۲۰-۲۰"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Следуем ритму 20-20-20"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следуем ритму 20-20-20"
           }
         }
       }
     },
-    "popover.pill.break": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə"
+    "popover.pill.break" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Break"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descanso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "استراحت"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перерыв"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перерыв"
           }
         }
       }
     },
-    "popover.pill.focus": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diqqət"
+    "popover.pill.focus" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diqqət"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Focus"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Focus"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Foco"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foco"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تمرکز"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تمرکز"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фокус"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фокус"
           }
         }
       }
     },
-    "popover.pill.off": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sönülü"
+    "popover.pill.off" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sönülü"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Off"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Off"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "خاموش"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خاموش"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выкл"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выкл"
           }
         }
       }
     },
-    "popover.pill.paused": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pauza"
+    "popover.pill.paused" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pauza"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paused"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paused"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pausa"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausa"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "متوقف"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متوقف"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пауза"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пауза"
           }
         }
       }
+    },
+    "RecessEyes работает в меню-баре" : {
+
     },
-    "RecessEyes работает в меню-баре": {},
-    "Select Application": {
-      "localizations": {
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "انتخاب نرم افزار"
+    "Select Application" : {
+      "localizations" : {
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتخاب نرم افزار"
           }
         }
       }
     },
-    "settings.break_length": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilənin uzunluğu"
+    "settings.break_length" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilənin uzunluğu"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Break length"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break length"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Duración del descanso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duración del descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مدت استراحت"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مدت استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Длительность перерыва"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Длительность перерыва"
           }
         }
       }
     },
-    "settings.break_length.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20 fut məsafədəki bir şeyə baxmaq üçün kifayət qədər."
+    "settings.break_length.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20 fut məsafədəki bir şeyə baxmaq üçün kifayət qədər."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Long enough to look at something ~20 ft away."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Long enough to look at something ~20 ft away."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tiempo suficiente para mirar algo a ~6 m (20 ft)."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo suficiente para mirar algo a ~6 m (20 ft)."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "به اندازه کافی به جسمی در فاصله ۶ متری نگاه کنید."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "به اندازه کافی به جسمی در فاصله ۶ متری نگاه کنید."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Хватит, чтобы посмотреть на что-то в ~6 метрах (20 фт)."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хватит, чтобы посмотреть на что-то в ~6 метрах (20 фт)."
           }
         }
       }
     },
-    "settings.chime": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə zəngi"
+    "settings.chime" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə zəngi"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Break chime"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break chime"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sonido de descanso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonido de descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "زنگ استراحت"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زنگ استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Звук перерыва"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звук перерыва"
           }
         }
       }
     },
-    "settings.chime.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə bitəndə yumşaq səs çal."
+    "settings.chime.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə bitəndə yumşaq səs çal."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Play a soft tone when the break ends."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play a soft tone when the break ends."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reproduce un tono suave al terminar el descanso."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reproduce un tono suave al terminar el descanso."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "زمان پایان استراحت یک صدای ملایم پخش کن."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زمان پایان استراحت یک صدای ملایم پخش کن."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Тихий сигнал в конце перерыва."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тихий сигнал в конце перерыва."
           }
         }
       }
     },
-    "settings.explainer.body": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "American Academy of Ophthalmology tövsiyə edir: hər **20 dəqiqə**, təxminən **20 fut** (~6 m) məsafədəki bir şeyə **20 saniyə** baxın. Bu, fokus əzələlərini boşaldır və rəqəmsal göz yorğunluğunu azaldır. İş ritminiz fərqlidirsə, yuxarıdakı taymeri tənzimləyin."
+    "settings.explainer.body" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "American Academy of Ophthalmology tövsiyə edir: hər **20 dəqiqə**, təxminən **20 fut** (~6 m) məsafədəki bir şeyə **20 saniyə** baxın. Bu, fokus əzələlərini boşaldır və rəqəmsal göz yorğunluğunu azaldır. İş ritminiz fərqlidirsə, yuxarıdakı taymeri tənzimləyin."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The 20-20-20 rule, recommended by the American Academy of Ophthalmology: every **20 minutes**, look at something about **20 feet** (~6 m) away for **20 seconds**. It relaxes the focusing muscles and reduces digital eye strain. Adjust the timer above if your work rhythm is different."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The 20-20-20 rule, recommended by the American Academy of Ophthalmology: every **20 minutes**, look at something about **20 feet** (~6 m) away for **20 seconds**. It relaxes the focusing muscles and reduces digital eye strain. Adjust the timer above if your work rhythm is different."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La regla 20-20-20, recomendada por la Academia Americana de Oftalmología: cada **20 minutos**, mira algo a unos **6 metros (20 ft)** durante **20 segundos**. Relaja los músculos de enfoque y reduce la fatiga visual digital. Ajusta el temporizador si tu ritmo es distinto."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La regla 20-20-20, recomendada por la Academia Americana de Oftalmología: cada **20 minutos**, mira algo a unos **6 metros (20 ft)** durante **20 segundos**. Relaja los músculos de enfoque y reduce la fatiga visual digital. Ajusta el temporizador si tu ritmo es distinto."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قانون ۲۰-۲۰-۲۰، توصیه شده توسط آکادمی چشم‌پزشکی آمریکا: هر **۲۰ دقیقه**، به جسمی در فاصله **۶ متری (۲۰ فوت)** به مدت **۲۰ ثانیه** نگاه کنید. این کار عضلات تمرکز را آرام می‌کند و خستگی چشم را کاهش می‌دهد."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قانون ۲۰-۲۰-۲۰، توصیه شده توسط آکادمی چشم‌پزشکی آمریکا: هر **۲۰ دقیقه**، به جسمی در فاصله **۶ متری (۲۰ فوت)** به مدت **۲۰ ثانیه** نگاه کنید. این کار عضلات تمرکز را آرام می‌کند و خستگی چشم را کاهش می‌دهد."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Правило 20-20-20, рекомендованное Американской академией офтальмологии: каждые **20 минут** смотрите на что-то в **6 метрах (20 фт)** в течение **20 секунд**. Это расслабляет фокусирующие мышцы и снижает цифровую усталость глаз. Подстройте таймер выше под свой ритм."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Правило 20-20-20, рекомендованное Американской академией офтальмологии: каждые **20 минут** смотрите на что-то в **6 метрах (20 фт)** в течение **20 секунд**. Это расслабляет фокусирующие мышцы и снижает цифровую усталость глаз. Подстройте таймер выше под свой ритм."
           }
         }
       }
     },
-    "settings.explainer.title": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Niyə bu standartlar?"
+    "settings.explainer.title" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niyə bu standartlar?"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Why these defaults?"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Why these defaults?"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¿Por qué estos valores?"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Por qué estos valores?"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "زمان های پیشفرض"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زمان های پیشفرض"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Почему такие значения?"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Почему такие значения?"
           }
         }
       }
     },
-    "settings.eyedrops": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Göz damcısı xatırlatması"
+    "settings.eyedrops" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göz damcısı xatırlatması"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eye drops reminder"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eye drops reminder"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recordatorio de gotas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recordatorio de gotas"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "یادآوری قطره چشم"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "یادآوری قطره چشم"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Напоминание о каплях"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напоминание о каплях"
           }
         }
       }
     },
-    "settings.eyedrops.interval": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hər"
+    "settings.eyedrops.interval" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hər"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Remind every"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remind every"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recordar cada"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recordar cada"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "یادآوری هر"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "یادآوری هر"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Каждые"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждые"
           }
         }
       }
     },
-    "settings.eyedrops.interval.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quru göz xatırlatmasının tezliyi."
+    "settings.eyedrops.interval.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quru göz xatırlatmasının tezliyi."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frequency of the dry-eye nudge."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frequency of the dry-eye nudge."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frecuencia del aviso de ojo seco."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frecuencia del aviso de ojo seco."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "دوره های یادآوری خشکی چشم."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوره های یادآوری خشکی چشم."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Частота напоминания о сухих глазах."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Частота напоминания о сухих глазах."
           }
         }
       }
     },
-    "settings.eyedrops.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uzun seanslarda quru göz üçün rahatlıq verən xatırlatma."
+    "settings.eyedrops.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzun seanslarda quru göz üçün rahatlıq verən xatırlatma."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Soothing nudge for dry-eye relief during long sessions."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soothing nudge for dry-eye relief during long sessions."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aviso suave para aliviar el ojo seco en sesiones largas."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aviso suave para aliviar el ojo seco en sesiones largas."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تلنگر ملایم برای تسکین خشکی چشم در جلسات طولانی."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلنگر ملایم برای تسکین خشکی چشم در جلسات طولانی."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мягкое напоминание для сухих глаз в долгих сессиях."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мягкое напоминание для сухих глаз в долгих сессиях."
           }
         }
       }
     },
-    "settings.language": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dil"
+    "settings.language" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dil"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Language"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Idioma"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idioma"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "زبان"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زبان"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Язык"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Язык"
           }
         }
       }
     },
-    "settings.language.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tətbiqi yenidən başlatdıqdan sonra qüvvəyə minir."
+    "settings.language.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tətbiqi yenidən başlatdıqdan sonra qüvvəyə minir."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Takes effect after restart."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takes effect after restart."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Se aplica al reiniciar."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se aplica al reiniciar."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "پس از راه‌اندازی مجدد اعمال می‌شود."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پس از راه‌اندازی مجدد اعمال می‌شود."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Применяется после перезапуска."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Применяется после перезапуска."
           }
         }
       }
     },
-    "settings.launch_at_login": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Girişdə başlat"
+    "settings.launch_at_login" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Girişdə başlat"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Launch at login"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch at login"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iniciar al iniciar sesión"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar al iniciar sesión"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "اجرا در هنگام ورود به سیستم"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجرا در هنگام ورود به سیستم"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Запуск при входе"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запуск при входе"
           }
         }
       }
     },
-    "settings.launch_at_login.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sistemə daxil olduqda RecessEyes-i sakitcə başladır."
+    "settings.launch_at_login.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistemə daxil olduqda RecessEyes-i sakitcə başladır."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Start RecessEyes silently when you sign in."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start RecessEyes silently when you sign in."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inicia RecessEyes en silencio al iniciar sesión."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicia RecessEyes en silencio al iniciar sesión."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "هنگام ورود، RecessEyes را در پس زمینه اجرا کن."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هنگام ورود، RecessEyes را در پس زمینه اجرا کن."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Запускать RecessEyes тихо при входе в систему."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запускать RecessEyes тихо при входе в систему."
           }
         }
       }
     },
-    "settings.section.eyecare": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Göz qulluğu"
+    "settings.section.eyecare" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göz qulluğu"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eye care"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eye care"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cuidado ocular"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuidado ocular"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مراقبت از چشم"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مراقبت از چشم"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Уход за глазами"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уход за глазами"
           }
         }
       }
     },
-    "settings.section.system": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sistem"
+    "settings.section.system" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistem"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "System"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sistema"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistema"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "سیستم"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سیستم"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Система"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Система"
           }
         }
       }
     },
-    "settings.section.timer": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Taymer"
+    "settings.section.timer" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taymer"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Timer"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Temporizador"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تایمر"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تایمر"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Таймер"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Таймер"
           }
         }
       }
     },
-    "settings.softmode": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gün batdıqdan sonra yumşaq rejim"
+    "settings.softmode" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gün batdıqdan sonra yumşaq rejim"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Soft mode after sunset"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soft mode after sunset"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modo suave tras el atardecer"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo suave tras el atardecer"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "حالت ملایم پس از غروب"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حالت ملایم پس از غروب"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мягкий режим после заката"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мягкий режим после заката"
           }
         }
       }
     },
-    "settings.softmode.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20:30-dan sonra fasilə overlay-ini avtomatik soldur."
+    "settings.softmode.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20:30-dan sonra fasilə overlay-ini avtomatik soldur."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dim the break overlay automatically after 20:30."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dim the break overlay automatically after 20:30."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Atenúa la pantalla de descanso automáticamente tras las 20:30."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atenúa la pantalla de descanso automáticamente tras las 20:30."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "پس از ساعت ۲۰:۳۰ صفحه استراحت را به‌طور خودکار کم‌نور کن."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پس از ساعت ۲۰:۳۰ صفحه استراحت را به‌طور خودکار کم‌نور کن."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "После 20:30 автоматически приглушать оверлей перерыва."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "После 20:30 автоматически приглушать оверлей перерыва."
           }
         }
       }
     },
-    "settings.tab.applications": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Proqramlar"
+    "settings.tab.applications" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proqramlar"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Applications"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applications"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aplicaciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicaciones"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "برنامه‌ها"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "برنامه‌ها"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Приложения"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложения"
           }
         }
       }
     },
-    "settings.tab.general": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ümumi"
+    "settings.tab.general" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ümumi"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "General"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "General"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "عمومی"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عمومی"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Основные"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основные"
           }
         }
       }
     },
-    "settings.warning": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilədən əvvəl xəbərdarlıq"
+    "settings.warning" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilədən əvvəl xəbərdarlıq"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pre-break warning"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pre-break warning"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aviso previo al descanso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aviso previo al descanso"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "هشدار قبل از استراحت"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هشدار قبل از استراحت"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Предупреждение перед перерывом"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предупреждение перед перерывом"
           }
         }
       }
     },
-    "settings.warning.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hər fasilədən əvvəl 15 saniyəlik xəbərdarlıq göstər."
+    "settings.warning.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hər fasilədən əvvəl 15 saniyəlik xəbərdarlıq göstər."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show a 15-second heads-up before each break."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show a 15-second heads-up before each break."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Muestra un aviso de 15 segundos antes de cada descanso."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muestra un aviso de 15 segundos antes de cada descanso."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قبل از هر استراحت یک هشدار ۱۵ ثانیه‌ای نمایش بده."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل از هر استراحت یک هشدار ۱۵ ثانیه‌ای نمایش بده."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Показывать 15-секундное предупреждение перед каждым перерывом."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать 15-секундное предупреждение перед каждым перерывом."
           }
         }
       }
     },
-    "settings.window.title": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes Parametrlər"
+    "settings.window.title" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes Parametrlər"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "RecessEyes Settings"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecessEyes Settings"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ajustes de RecessEyes"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes de RecessEyes"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تنظیمات RecessEyes"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنظیمات RecessEyes"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Настройки RecessEyes"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки RecessEyes"
           }
         }
       }
     },
-    "settings.work_interval": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "İş intervalı"
+    "settings.work_interval" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İş intervalı"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Work interval"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Work interval"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intervalo de trabajo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intervalo de trabajo"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "بازه‌های کاری"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بازه‌های کاری"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Рабочий интервал"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рабочий интервал"
           }
         }
       }
     },
-    "settings.work_interval.sub": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fasilə təklif edilməzdən əvvəl davamlı diqqət vaxtı."
+    "settings.work_interval.sub" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fasilə təklif edilməzdən əvvəl davamlı diqqət vaxtı."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continuous focus before a break is suggested."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuous focus before a break is suggested."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tiempo de enfoque continuo antes de sugerir un descanso."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo de enfoque continuo antes de sugerir un descanso."
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تمرکز پیوسته پیش از پیشنهاد استراحت."
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تمرکز پیوسته پیش از پیشنهاد استراحت."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Непрерывная работа перед предложением перерыва."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Непрерывная работа перед предложением перерыва."
           }
         }
       }
     },
-    "unit.min": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "dəq"
+    "unit.min" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dəq"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "min"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "min"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "دقیقه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دقیقه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "мин"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "мин"
           }
         }
       }
     },
-    "unit.sec": {
-      "localizations": {
-        "az": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "san"
+    "unit.sec" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "san"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "sec"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sec"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "seg"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "seg"
           }
         },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ثانیه"
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ثانیه"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "сек"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "сек"
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

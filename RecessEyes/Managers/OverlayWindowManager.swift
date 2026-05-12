@@ -42,14 +42,21 @@ class OverlayWindowManager: NSObject {
             self.startEscapeMonitor()
             NSApp.activate(ignoringOtherApps: true)
             let screens = NSScreen.screens
-            Self.log.notice("creating panels for \(screens.count, privacy: .public) screen(s); isActive=\(NSApp.isActive)")
+            // One tip per break, shared across every screen.
+            let tipIndex = Int.random(in: 1...BreakOverlayView.tipCount)
+            Self.log.notice("creating panels for \(screens.count, privacy: .public) screen(s); isActive=\(NSApp.isActive); tipIndex=\(tipIndex, privacy: .public)")
             for (index, screen) in screens.enumerated() {
                 let panel = self.createOverlayPanel(
                     for: screen,
                     getTimeRemaining: getTimeRemaining,
-                    getTotalDuration: getTotalDuration
+                    getTotalDuration: getTotalDuration,
+                    tipIndex: tipIndex
                 )
                 panel.makeKeyAndOrderFront(nil)
+                // Force-front regardless of app activation state — needed because
+                // .accessory apps don't fully "activate" and the panel can otherwise
+                // sit behind an active fullscreen app.
+                panel.orderFrontRegardless()
                 Self.log.notice("panel[\(index, privacy: .public)] frame=\(NSStringFromRect(panel.frame), privacy: .public) visible=\(panel.isVisible) level=\(panel.level.rawValue)")
                 self.overlayWindows.append(panel)
             }
@@ -76,10 +83,11 @@ class OverlayWindowManager: NSObject {
 
     private func createOverlayPanel(for screen: NSScreen,
                                     getTimeRemaining: @escaping () -> Int,
-                                    getTotalDuration: @escaping () -> Int) -> NSPanel {
+                                    getTotalDuration: @escaping () -> Int,
+                                    tipIndex: Int) -> NSPanel {
         let panel = KeyablePanel(
             contentRect: screen.frame,
-            styleMask: [.borderless, .fullSizeContentView],
+            styleMask: [.borderless, .fullSizeContentView, .nonactivatingPanel],
             backing: .buffered,
             defer: false
         )
@@ -89,12 +97,22 @@ class OverlayWindowManager: NSObject {
         panel.backgroundColor = .clear
         panel.hasShadow = false
         panel.ignoresMouseEvents = false
-        panel.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary]
+        // Keep on top across spaces, over fullscreen apps, and even when the
+        // accessory-policy app isn't the active app.
+        panel.isFloatingPanel = true
+        panel.hidesOnDeactivate = false
+        panel.collectionBehavior = [
+            .canJoinAllSpaces,
+            .fullScreenAuxiliary,
+            .stationary,
+            .ignoresCycle,
+        ]
 
         let overlayView = BreakOverlayView(
             getTimeRemaining: getTimeRemaining,
             getTotalDuration: getTotalDuration,
             isExpired: { [weak self] in self?.isBreakExpired ?? false },
+            tipIndex: tipIndex,
             onSkip: { [weak self] in
                 self?.onSkip?()
                 self?.hideAllOverlays()
